@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&family=Syne:wght@800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Inter", sans-serif;
+  --font-mono: "Space Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-accent: #FF6B00;
+  --color-accent-hover: #e55a00;
+  --color-accent-light: rgba(255, 107, 0, 0.10);
+  --color-accent-border: rgba(255, 107, 0, 0.25);
+  
+  --color-blue-accent: #007AFF;
+  --color-blue-accent-light: rgba(0, 122, 255, 0.15);
+  --color-blue-accent-border: rgba(0, 122, 255, 0.3);
+  
+  --color-ink: #F8F7F4;
+  --color-ink-faint: rgba(248, 247, 244, 0.1);
+  --color-bg-dark: #0A0A0B;
+}
+
+body {
+  background-color: #0A0A0B;
+  color: #F8F7F4;
+}
+
+/* Custom CSS Scroll Behavior and key utilities */
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 20s linear infinite;
+}
+
+/* Custom Hide Scrollbar Utility */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.text-xxs {
+  font-size: 0.65rem;
+}
+
+/* Custom stroke utility from the selected design mockup */
+.text-stroke-accent {
+  color: transparent;
+  -webkit-text-stroke: 1px #FF6B00;
+}
+
+.text-stroke-white {
+  color: transparent;
+  -webkit-text-stroke: 1px #F8F7F4;
+}
+
