@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  somarts-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: somarts_eventos
+    restart: always
+    ports:
+      - "80:80" # Map container's port 80 to the VPS host's port 80
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"

@@ -32,7 +32,7 @@ export default function AcabamentoTecnico() {
           {/* Left: Interactive Image with Hotspot Pins */}
           <div className="lg:col-span-7 relative group overflow-hidden border border-white/10 shadow-2xl bg-zinc-900 aspect-video">
             <img
-              src="/src/assets/images/backstage_engineer_1782392507272.jpg"
+              src="/images/backstage_engineer_1782392507272.jpg"
               alt="Backstage Técnico da Somarts Eventos"
               className="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700"
               referrerPolicy="no-referrer"

@@ -209,7 +209,7 @@ export default function App() {
               {/* Photo Frame matching slide style */}
               <div className="relative border border-white/10 p-2 bg-zinc-900/50 backdrop-blur-sm shadow-2xl rounded-2xl overflow-hidden w-full max-w-2xl">
                 <img 
-                  src="/src/assets/images/hero_stage_av_1782392496398.jpg" 
+                  src="/images/hero_stage_av_1782392496398.jpg" 
                   alt="Slide 1 Presentation Stage" 
                   className="w-full h-auto object-cover rounded-xl border border-white/5 shadow-inner"
                   referrerPolicy="no-referrer"
@@ -331,7 +331,7 @@ export default function App() {
         {/* Full-bleed sunset resort setup background */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="/src/assets/images/bahia_resort_event_1782392518511.jpg" 
+            src="/images/bahia_resort_event_1782392518511.jpg" 
             alt="Show e Convenção de sucesso na Bahia" 
             className="w-full h-full object-cover opacity-10"
             referrerPolicy="no-referrer"

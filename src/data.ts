@@ -4,7 +4,7 @@ export const HERO_DATA = {
   title: "O padrão ouro em infraestrutura audiovisual para grandes eventos na Bahia.",
   subtitle: "SOMARTS | Engenharia Audiovisual Full Service",
   description: "Mais que locação de equipamentos, entregamos tranquilidade. O seu evento corporativo não tem margem para o erro. Tenha o padrão técnico de São Paulo executado com maestria no Nordeste.",
-  image: "/src/assets/images/hero_stage_av_1782392496398.jpg"
+  image: "/images/hero_stage_av_1782392496398.jpg"
 };
 
 export const RISK_SOLUTION_DATA = {
