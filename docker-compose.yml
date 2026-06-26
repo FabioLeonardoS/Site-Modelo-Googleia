@@ -8,7 +8,7 @@ services:
     container_name: somarts_eventos
     restart: always
     ports:
-      - "80:80" # Map container's port 80 to the VPS host's port 80
+      - "8080:80" # Map container's port 80 to the VPS host's port 8080
     logging:
       driver: "json-file"
       options:
